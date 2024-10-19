@@ -32,6 +32,7 @@ body.dark .aside .nav li a.active,
 .aside .nav-toggler span,
 .aside .nav-toggler span::before,
 .aside .nav-toggler span::after,
+.contact .contact-wa,
 .home .intro .social-links a{
     background-color: #2196f3;
 }

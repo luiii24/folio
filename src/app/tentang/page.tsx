@@ -15,99 +15,50 @@ const About: NextPage = () => {
               <div className="row">
                 <div className="about-text padd-15">
                   <h2>
-                    I am Your name a <span>Your Expertise</span>
+                   Hai, namaku Lui alias <span>Ahmad Luay</span>
                   </h2>
                   <p>
-                    Hi! My name is Your Name. I am a your expertise, and I am
-                    very passionate and dedicated to my work. With 1 years
-                    experience as a your expertise, I have acquired the skills and
-                    knowledge necessary to make your project a success. I enjoy
-                    every step of the design process, from discussion and
-                    collaboration.
+                    Oke! Singkat saja. saya adalah seorang pemuda yang ingin menjadi progremer modal hp ram 2gb.
                   </p>
+                  <br></br>
                 </div>
               </div>
               <div className="row">
-                <div className="personal-info padd-15">
-                  <div className="row">
-                    <div className="info-item padd-15">
-                      <p>
-                        Website : <span>www.urfolio.vercel.app</span>
-                      </p>
-                    </div>
-                    <div className="info-item padd-15">
-                      <p>
-                        Email : <span>your@email.com</span>
-                      </p>
-                    </div>
-                    <div className="info-item padd-15">
-                      <p>
-                        Degree : <span>SSC</span>
-                      </p>
-                    </div>
-                    <div className="info-item padd-15">
-                      <p>
-                        Phone : <span>+99 ********</span>
-                      </p>
-                    </div>
-                    <div className="info-item padd-15">
-                      <p>
-                        City : <span>Your City</span>
-                      </p>
-                    </div>
-                    <div className="info-item padd-15">
-                      <p>
-                        Freelance : <span>Available</span>
-                      </p>
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="buttons padd-15">
-                      <a
-                        href="/assets/docs/resume.pdf"
-                        target="_target"
-                        className="btn"
-                      >
-                        Download CV
-                      </a>
-                      <a
-                        href="#contact"
-                        data-section-index={0}
-                        className="btn hire-me"
-                      >
-                        Hire Me
-                      </a>
-                    </div>
-                  </div>
-                </div>
                 <div className="skills padd-15">
                   <div className="row">
                     <div className="skill-item padd-15">
-                      <h5>Html5</h5>
+                      <h5>HTML</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "80%" }} />
-                        <div className="skill-percent">80%</div>
+                        <div className="progress-in" style={{ width: "98%" }} />
+                        <div className="skill-percent">98%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
-                      <h5>Css3</h5>
+                      <h5>CSS</h5>
                       <div className="progress">
                         <div className="progress-in" style={{ width: "60%" }} />
                         <div className="skill-percent">60%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
-                      <h5>Javascript</h5>
+                      <h5>JavaScript</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "50%" }} />
-                        <div className="skill-percent">50%</div>
+                        <div className="progress-in" style={{ width: "91%" }} />
+                        <div className="skill-percent">91%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
-                      <h5>Bootstrap</h5>
+                      <h5>Golang</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "70%" }} />
-                        <div className="skill-percent">70%</div>
+                        <div className="progress-in" style={{ width: "95%" }} />
+                        <div className="skill-percent">95%</div>
+                      </div>
+                    </div>
+                    <div className="skill-item padd-15">
+                      <h5>MySQL</h5>
+                      <div className="progress">
+                        <div className="progress-in" style={{ width: "20%"}} />
+                        <div className="skill-percent">20%</div>
                       </div>
                     </div>
                   </div>
@@ -115,7 +66,7 @@ const About: NextPage = () => {
               </div>
               <div className="row">
                 <div className="education padd-15">
-                  <h3 className="title">Education</h3>
+                  <h3 className="title">Sekolah</h3>
                   <div className="row">
                     <div className="timeline-box padd-15">
                       <div className="timeline shadow-dark">
@@ -123,15 +74,14 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
+                            <i className="fa fa-calendar" /> 2019 - Sekarang
                           </h6>
                           <h4 className="timeline-title">
-                            Self Taught (Programming)
+                            Al-Islam Joresan
                           </h4>
                           <p className="timeline-text">
-                            Since 2020 I started to learn Programming. I have
-                            learn Html, Css, Sass, JavaScript, Bootstrap. Now I
-                            am a Professional Web Designer..
+                            Saat 2019 saya mulai bersekolah di MTS AL-Islam, Sampai 2022.
+                            Dilanjutkan 2022 Akhir Tahun, saya melanjutkan di SMK AL-Islam sampai saat ini.
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -139,15 +89,14 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2019 to Present
+                            <i className="fa fa-calendar" /> 2014 - 2019
                           </h6>
                           <h4 className="timeline-title">
-                            Diploma in Civil Engineering
+                            SDN 2 MAGUWAN
                           </h4>
                           <p className="timeline-text">
-                            From 2019 I started my journey to be a Civil
-                            Engineer on Shyamoli Ideal Polytechnic Institute. It
-                            still Running to Present.
+                           Pada tahun ini saya mendapatkan pelajaran dasar
+                           di Sekolah Dasar yang tidak jauh dari rumahku.
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -155,15 +104,14 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2014 to 2019
+                            <i className="fa fa-calendar" /> 2013 - 2014
                           </h6>
                           <h4 className="timeline-title">
-                            Secondary School Certificate
+                            TK DHARMA WANITA MAGUWAN
                           </h4>
                           <p className="timeline-text">
-                            In 2019 I passed SSC Exam from Science Group with
-                            GPA- 4.56. My school name was Patgram Anath Bondhu
-                            Govt. High School.
+                            Di tahun ini lah aku mulai memiliki banyak teman
+                            dan belajar membaca, menulis, dan menghitung
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -172,7 +120,7 @@ const About: NextPage = () => {
                   </div>
                 </div>
                 <div className="experience padd-15">
-                  <h3 className="title">Experience</h3>
+                  <h3 className="title">Pengalaman</h3>
                   <div className="row">
                     <div className="timeline-box padd-15">
                       <div className="timeline shadow-dark">
@@ -180,13 +128,12 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2019 to Present
+                            <i className="fa fa-calendar" /> 2023 - Sekarang
                           </h6>
-                          <h4 className="timeline-title">Graphics Design</h4>
+                          <h4 className="timeline-title">Koding</h4>
                           <p className="timeline-text">
-                            From 2018 I am woking on Graphics Design. The
-                            software I use Photoshop, Illustrator for Graphics
-                            design.
+                            Mulai tahun ini lah aku fokus koding menggunakan
+                            aplikasi mimo, di karenakan tidak mempunya laptop.
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -194,13 +141,13 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
+                            <i className="fa fa-calendar" /> 2023
                           </h6>
-                          <h4 className="timeline-title">Web Design</h4>
+                          <h4 className="timeline-title">PKL</h4>
                           <p className="timeline-text">
-                            Since 2020 I started to learn Coding. I have learn
-                            Html, Css, Sass, JavaScript, Bootstrap. Now I am a
-                            Professional Web Designer..
+                            Di tahun ini aku tidak belajar koding melainkan 
+                            jaringan internet karena di utus oleh sekolahan
+                            selama 6 bulan.
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -208,12 +155,13 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
+                            <i className="fa fa-calendar" /> 2018 - 2022
                           </h6>
-                          <h4 className="timeline-title">Wordpress</h4>
+                          <h4 className="timeline-title">Termux Hacking</h4>
                           <p className="timeline-text">
-                            Since 2020 I started to learn Wordpress. I can
-                            install, Customize, &amp; fix bug on wordpress.{" "}
+                            Tahun ininlah aku mulai kenal yang namanya pemrograman,
+                            walaupun pada saat itu nggak jelas kayak install" sana sini
+                            tanpa tau kegunaannya.
                           </p>
                         </div>
                         {/* Timeline Item end */}

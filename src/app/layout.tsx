@@ -8,14 +8,13 @@ import "../styles/theme.css";
 import Sidebar from "@/components/sidebar/sidebar";
 import Providers from "./providers";
 import ThemeSwitch from "@/components/panel/ThemeSwitch";
-import FolioProBanner from "@/components/banner/folio-pro";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Folio the best Portfolio or Personal Website",
+  title: "Lu'i Blog",
   description:
-    "Folio is the best portfolio or personal website for developer, creator or businessman.",
+    "Ini adalah tentang kisah ku.",
 };
 
 export default function RootLayout({
@@ -31,8 +30,6 @@ export default function RootLayout({
           {/* <ThemeSwitch />
           <Sidebar />
           {children} */}
-          {/* Temporary for Banner */}
-          <FolioProBanner />
           <div className="temp-layout">
             <ThemeSwitch />
             <Sidebar />

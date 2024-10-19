@@ -24,7 +24,7 @@ const Sidebar = () => {
       <div className="aside-inner">
         <div className="logo">
           <Link href="/" onClick={handleClose}>
-            Folio
+           Lui
           </Link>
         </div>
         <ul className="nav">
@@ -35,46 +35,46 @@ const Sidebar = () => {
           </li>
           <li onClick={handleClose}>
             <Link
-              href="/about"
+              href="/tentang"
               className={`${pathUrl == "/about" && "active"}`}
             >
-              <i className="fa fa-user" /> About
+              <i className="fa fa-user" /> Siapa sih lui itu ?
             </Link>
           </li>
           <li onClick={handleClose}>
             <Link
-              href="/services"
-              className={`${pathUrl == "/services" && "active"}`}
+              href="/keahlian"
+              className={`${pathUrl == "/keahlian" && "active"}`}
             >
-              <i className="fa fa-list" /> Services
+              <i className="fa fa-list" /> Bisa apa saja ?
             </Link>
           </li>
           <li onClick={handleClose}>
             <Link
-              href="/portfolio"
-              className={`${pathUrl == "/portfolio" && "active"}`}
+              href="/project"
+              className={`${pathUrl == "/project" && "active"}`}
             >
-              <i className="fa fa-briefcase" /> Portfolio
+              <i className="fa fa-briefcase" /> Karyanya apa saja ?
             </Link>
           </li>
           <li onClick={handleClose}>
             <Link href="/blog" className={`${pathUrl == "/blog" && "active"}`}>
-              <i className="fa fa-envelope" /> Blog
+              <i className="fa fa-envelope" /> Adakah artikel ?
             </Link>
           </li>
           <li onClick={handleClose}>
             <Link
-              href="/contact"
-              className={`${pathUrl == "/contact" && "active"}`}
+              href="/kontak"
+              className={`${pathUrl == "/kontak" && "active"}`}
             >
-              <i className="fa fa-comments" /> Contact
+              <i className="fa fa-comments" /> Hubungi aku ?
             </Link>
           </li>
         </ul>
         <div className="copyright">
-          Created with ❤️ By{" "}
-          <a href="http://alsiam.com" target="_blank" rel="noopener noreferrer">
-            Al Siam
+          Di Buat Ulang Oleh <i className="fa fa-plane"></i> {" "}
+          <a href="http://lui.biz.id" target="_blank" rel="noopener noreferrer">
+            Lui
           </a>
         </div>
       </div>

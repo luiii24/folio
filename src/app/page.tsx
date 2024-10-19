@@ -11,23 +11,14 @@ export default async function Home() {
               alt="Al Siam Profile"
               className="shadow-dark"
             />
-            <h1>Your Name</h1>
-            <p>Your expertise</p>
+            <h1>Ahmad Lu'i</h1>
+            <p>#PonorogoHebat #SMKbisa!</p>
             <div className="social-links">
               <a href="https://twitter.com/" target="_blank">
-                <i className="fa fa-twitter" />
+               <h5>Follow ig saya <i className="fa fa-instagram"></i></h5>
               </a>
-              <a href="https://facebook.com/" target="_blank">
-                <i className="fa fa-facebook" />
-              </a>
-              <a href="https://github.com/" target="_blank">
-                <i className="fa fa-github" />
-              </a>
-              <a href="https://instagram.com/" target="_blank">
-                <i className="fa fa-instagram" />
-              </a>
-              <a href="https://linkedin.com/in/" target="_blank">
-                <i className="fa fa-linkedin" />
+              <a href="https://github.com/luiii24/" target="_blank">
+              <h5>Dan follow githubku juga dong <i className="fa fa-github"></i></h5>
               </a>
             </div>
           </div>
