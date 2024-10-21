@@ -31,7 +31,7 @@ const Blog: NextPage = () => {
          <h1>2. Maine Coon</h1>
          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Maine_Coon_cat_by_Tomitheos.JPG/562px-Maine_Coon_cat_by_Tomitheos.JPG"></img>
          <p>
-         Banyak orang yang percaya bahwa maine coon merupakan hasil persilangan alami dari kucing setengah liar dengan rakun. Mitos ini ada karena bentuk dan warna ekor maine coon yang menyerupai rakun. Karena ekornya, nama ras kucing ini diambil dari kata "Maine" yang merupakan negara bagian Amerika Serikat dan kata "coon" yang diambil dari kata "racoon" yang berarti "rakun".[1]
+         Banyak orang yang percaya bahwa maine coon merupakan hasil persilangan alami dari kucing setengah liar dengan rakun. Mitos ini ada karena bentuk dan warna ekor maine coon yang menyerupai rakun. Karena ekornya, nama ras kucing ini diambil dari kata &quot;Maine&quot; yang merupakan negara bagian Amerika Serikat dan kata &quot;coon&quot; yang diambil dari kata &quot;racoon&quot; yang berarti &quot;rakun&quot;.
           </p>
          <p>
          Ras maine coon dipercayai berasal dari enam ekor kucing yang dipelihara oleh seorang Ratu Prancis bernama Maria Antonia. Keenam kucing tersebut kemudian dikirim ke Wiscasset, Maine ketika Maria akan melarikan diri dari Prancis pada saat terjadinya revolusi Prancis.[1]

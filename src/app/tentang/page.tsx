@@ -160,7 +160,7 @@ const About: NextPage = () => {
                           <h4 className="timeline-title">Termux Hacking</h4>
                           <p className="timeline-text">
                             Tahun ininlah aku mulai kenal yang namanya pemrograman,
-                            walaupun pada saat itu nggak jelas kayak install" sana sini
+                            walaupun pada saat itu nggak jelas kayak install&quot; sana sini
                             tanpa tau kegunaannya.
                           </p>
                         </div>

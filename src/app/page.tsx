@@ -11,7 +11,7 @@ export default async function Home() {
               alt="Al Siam Profile"
               className="shadow-dark"
             />
-            <h1>Ahmad Lu'i</h1>
+            <h1>Ahmad Lu&apos;i</h1>
             <p>#PonorogoHebat #SMKbisa!</p>
             <div className="social-links">
               <a href="https://twitter.com/" target="_blank">
